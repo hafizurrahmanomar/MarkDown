@@ -180,3 +180,15 @@ Please Like my [Facebook Page] page:
 ---
 
 ![Hafizur Rahman Omar](https://avatars.githubusercontent.com/u/80614973?s=400&u=0fd97c4869d564d66141159f44c31ebc2891db63&v=4)
+
+### Emoji & ShortCode
+---
+
+|Emoji|ShortCode|Emoji|ShortCode|Emoji|ShortCode|
+|-----|---------|-----|---------|-----|---------| 
+|:smirk:|`:smirk:`|:worried:|`:worried:`|:scream:|`:scream:`|
+|:smiley:|`:smiley:`|:stuck_out_tongue_winking_eye:|`:stuck_out_tongue_winking_eye:`|:kissing_smiling_eyes:|`:kissing_smiling_eyes:`|
+|:blush:|`:blush:`|:stuck_out_tongue:|`:stuck_out_tongue:`|:frowning:|`:frowning:`|
+|:laughing:|`:laughing:`|:anguished:|`:anguished:`|:open_mouth:|`:open_mouth:`|
+|:smile:|`:smile:`|:sweat:|`:sweat:`|:sweat_smile:|`:sweat_smile:`|
+|:heart_eyes:|`:heart_eyes:`|:grimacing:|`:grimacing:`|:confused:|`:confused:`|
