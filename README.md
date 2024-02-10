@@ -6,19 +6,26 @@
  
  # Hafizur Rahman Omar
 
-<details>
 
-<summary>Hafizur Rahman Details Click Here</summary>
-
-# I'm Professional Web and App Developer and ETP Expert
-
-</details>
 
 <div align="center">
+
 
 ![Hafizur Rahman Omar](https://avatars.githubusercontent.com/u/80614973?s=400&u=0fd97c4869d564d66141159f44c31ebc2891db63&v=4)
 
 </div>
+
+___
+
+<details>
+
+<summary>Hafizur Rahman Omar info Read more...</summary>
+
+# I'm a Professional Web and App Developer and Digital Marketer
+
+</details>
+
+___
 
 # `MarkDown Description`
 
