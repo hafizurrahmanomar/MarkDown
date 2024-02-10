@@ -44,7 +44,7 @@ python -m venv env
 
 # for windows
 
-env/Scripts/activate.bat
+env/Scripts/activate
 
 # linux/Mac 
 
@@ -56,57 +56,64 @@ pip install Django
 
 ```
 
-## Django project set-up
+**Step 2: Create SuperUser for Django Admin Panel**
 
 ---
-
-**Create a new Django project**
 
 ```python
 
-django-admin startproject hafiz <hafiz =ProjectName>
+# This command python manage.py list show
 
-cd hafiz
- # App install inside project
+# cd hafiz
 
-django-admin startapp blog
+ python manage.py createsuperuser
 
-python manage.py migrate
+ # User Name(Hafizurrahmanomar)
+ # password:
+ # email:example@gmail.com
 
-python manage.py runserver
+ # Local Host Link
 
-```
+ localhost:8000/
 
-**Step 2: Create an app named blog**
+ or
 
----
+ http://127.0.0.1:8000/
 
-**startapp command**
+  # Local Host administration link
 
-```
-django-admin startapp blog <blog=app-name>
+  https://localhost:8000/admin/
 
-```
 
-**or**
-
-```
-python manage.py startapp <app-name>
 
 ```
 
-**Development and testing**
 
-```
-Python manage.py runserver
-
-```
 
 **hafiz(hafiz=projectName)/setting.py**
 
 **Step 3: Add your app to the settings.py**
 
 ```python
+
+
+
+from pathlib import Path
+
+# Custom import
+
+import os
+
+# Build paths inside the project like this: BASE_DIR / 'subdir'.
+BASE_DIR = Path(__file__).resolve().parent.parent
+
+# Custom templates directory create by Hafizur Rahman Omar
+
+TEMPLATES_DIR = os.path.join(BASE_DIR,'templates')
+
+STATIC_DIR = os.path.join(BASE_DIR,'static')
+
+
 
 # Application definition
 
@@ -121,6 +128,46 @@ INSTALLED_APPS = [
     # Custom app
       'blog',
 ]
+
+
+TEMPLATES = [
+    {
+        'BACKEND': 'django.template.backends.django.DjangoTemplates',
+
+        'DIRS': [TEMPLATES_DIR],
+
+        or
+
+        'DIRS': [BASE_DIR / 'templates'],
+         
+
+        'APP_DIRS': True,
+        
+    },
+]
+
+
+
+# Static files (CSS, JavaScript, Images)
+# https://docs.djangoproject.com/en/4.2/howto/static-files/
+
+STATIC_URL = 'static/'
+
+# custom add by Hafizur Rahman
+
+    STATICFILES_DIRS = [
+
+
+        STATIC_DIR,
+
+    ]
+
+
+
+
+
+
+
 
 ```
 
